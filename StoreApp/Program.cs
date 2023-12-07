@@ -3,6 +3,7 @@ var app = builder.Build();
 
 
 app.UseHttpsRedirection();
+app.UseRouting();
 
 app.MapGet("/", () => "Hello World!");
 
